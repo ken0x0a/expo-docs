@@ -367,13 +367,15 @@ Configuration for how and when the app should request OTA JavaScript updates
 
         developers.google.com/identity/sign-in/ios/start-integrating
       */
-      "googleSignIn": STRING,
+      "googleSignIn": {
 
-      /*
-        The reserved client ID URL scheme. 
-        Can be found in GoogeService-Info.plist.
-      */
-      "reservedClientId": STRING
+        /*
+          The reserved client ID URL scheme. 
+          Can be found in GoogeService-Info.plist.
+        */
+        "reservedClientId": STRING,
+
+      },
     },
 
     "splash": {
